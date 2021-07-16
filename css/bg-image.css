@@ -1,0 +1,34 @@
+.bg-image{
+    width: 100%;
+    min-height: 600px;
+    background: linear-gradient(rgba(0, 0, 0, .4),rgba(0, 0, 0, .4)), url('../img/bg-01.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-image .bg-desc{
+    color: #FFFFFE;
+    text-align: center;
+    
+    line-height: 36px;
+    max-width: 90%;
+    border: 1px solid #FFFFFE;
+    border-radius: 4px;
+    padding: 60px;
+    /* word-spacing: 5px; */
+}
+
+@media screen and (min-width: 760px){
+    .bg-image .bg-desc{
+        max-width: 750px;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+}

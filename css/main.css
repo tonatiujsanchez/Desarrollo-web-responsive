@@ -1,0 +1,30 @@
+main{
+    background-color: #1DAC97;
+    max-width: 700px;
+    padding: 20px;
+    margin: 0 auto;
+
+    margin-bottom: 40px;
+}
+.main-header{
+    background-color: #3A5062;
+    height: 80px;
+    margin-bottom: 15px;
+}
+.main-contenedor{
+    background-color: #3A5062;
+    height: 160px;
+    margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .flotante-left{
+        display: inline-block;
+        width: 48%;
+    }
+    .flotante-right{
+        display: inline-block;
+        width: 48%;
+        float: right;
+    }
+}
